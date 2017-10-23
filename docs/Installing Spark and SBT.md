@@ -1,5 +1,5 @@
 
-Installing Spark and  <a href="http://www.scala-sbt.org"><img src ="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" width="100" height="100" border="10" ></a>
+Installing Spark and  <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" width="60" height="30" border="0" ></a>
 ==================
 
 
