@@ -130,8 +130,7 @@ name [hello]:
 
 Template applied in ./hello
 
-``r:q
-`
+```
 
 
 *For more help see the [sbt official linux installation instructions](http://www.scala-sbt.org/0.13/docs/Installing-sbt-on-Linux.html).*
@@ -143,4 +142,16 @@ Template applied in ./hello
 &ensp;
 &ensp;
 &ensp;
-<center> [previous page ](https://github.com/GabeChurch/Building-Spark-Projects-with-SBT/blob/master/docs/Intro%20to%20SBT.md)*Intro to SBT*  &ensp; &ensp; [next page](https://github.com/GabeChurch/Building-Spark-Projects-with-SBT/blob/master/docs/Simple%20SBT%20Spark%20Build.md) *Simple SBT Spark Build*
+
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;[previous page][1] *Intro to SBT* &ensp; &ensp; [next page][2] *Simple SBT Spark Build*
+
+ 
+
+
+
+
+
+
+ [1]: https://github.com/GabeChurch/Building-Spark-Projects-with-SBT/blob/master/docs/Intro%20to%20SBT.md
+[2]: https://github.com/GabeChurch/Building-Spark-Projects-with-SBT/blob/master/docs/Simple%20SBT%20Spark%20Build.md
+
