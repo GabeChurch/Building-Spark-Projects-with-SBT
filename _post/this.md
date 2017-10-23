@@ -69,14 +69,14 @@ $\qquad$[<i class ="icon-file"></i> Build.sbt](#build)
 
 
 :open_file_folder: **Top**
-$\qquad$ [:page_with_curl: **Build.sbt**](#build)
-$\qquad$ [:open_file_folder: **project**](#project)
-$\qquad$ [:open_file_folder: **src**](#src)
-$\qquad$ $\qquad$ [:open_file_folder: **main**](#main)
-$\qquad$ $\qquad$ $\qquad$ [:open_file_folder: **resources**](#resources)
-$\qquad$ $\qquad$ $\qquad$ [:open_file_folder: **scala**](#scala)
-$\qquad$ $\qquad$ $\qquad$ $\qquad$ :page_with_curl: **your_program.scala**
-$\qquad$ [:open_file_folder: **lib**](#lib)
+&emsp; [:page_with_curl: **Build.sbt**](#build)
+&emsp; [:open_file_folder: **project**](#project)
+&emsp; [:open_file_folder: **src**](#src)
+&emsp; &emsp; [:open_file_folder: **main**](#main)
+&emsp; &emsp; &emsp; [:open_file_folder: **resources**](#resources)
+&emsp; &emsp; &emsp; [:open_file_folder: **scala**](#scala)
+&emsp; &emsp; &emsp; &emsp; :page_with_curl: **your_program.scala**
+&emsp; [:open_file_folder: **lib**](#lib)
 
 
 ----------
