@@ -33,13 +33,13 @@ Why use <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http:/
 --------------------------
 Understanding how and why certain components work and rely on each other is crucial to success. SBT is the perfect choice for learning structure, management, and compilation. SBT is the perfect tool to assist in building or automate spark programs capable of more than just ETL.
 
-####Save time 
+#### Save time 
 Sbt is a scala compiler that builds on the apache maven project and adds dependency management with apache ivy. It supports writing scala to identify dependencies (useful for making programs which can compile against many operating systems or versions) and is far and away the compilation tool of choice for spark.
 
-####Support 
+#### Support 
 Sbt is built into many of the major IDEs like IntelliJ and Eclipse. Sbt also supports reading project Maven poms and more. 
 
-####Community
+#### Community
 Sbt is used by a large portion of the scala community and is overwhelmingly popular among spark developers.
 
 
