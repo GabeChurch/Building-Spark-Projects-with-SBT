@@ -29,7 +29,7 @@ They may have securities in place (kerberos authentication) and they may even di
 Why use <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" width="100" height="100" border="10" ></a>
 -------------------
 
-####Understanding your deployment
+#### Understanding your deployment
 --------------------------
 Understanding how and why certain components work and rely on each other is crucial to success. SBT is the perfect choice for learning structure, management, and compilation. SBT is the perfect tool to assist in building or automate spark programs capable of more than just ETL.
 
@@ -50,7 +50,14 @@ Sbt is used by a large portion of the scala community and is overwhelmingly popu
 -------------------------------------
 
 <i class ="icon-folder-open"> </i> Top
+
+practice  &nbsp; <space> hello
+&emsp; Hello
+
 $\qquad$[<i class ="icon-file"></i> Build.sbt](#build)
+
+&emsp; trick
+
 : [<i class="icon-folder-open"></i> project](#project)
 : [<i class="icon-folder-open"></i> src](#src)
 : - [<i class="icon-folder-open"></i> main](#main)
