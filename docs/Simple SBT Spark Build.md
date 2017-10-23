@@ -96,7 +96,7 @@ This build is utilizing the default maven resolvers to get the specified spark v
 &ensp;
 &ensp;
 &ensp;
-<p align="center"> [previous page][1] *Installing Spark and SBT*  &ensp; &ensp; [next page](#none) *None*
+<p align="center"> [previous page][1] *Installing Spark and SBT*  &ensp; &ensp; [next page](#none) *None* </p>
 
 [previous page][1]
 
