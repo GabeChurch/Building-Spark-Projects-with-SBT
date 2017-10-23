@@ -92,3 +92,5 @@ This build is utilizing the default maven resolvers to get the specified spark v
 
 
 *If you are building spark on a hadoop cluster you will need a more advanced spark config, and you may need to add specific resolvers and version dependencies. *
+
+<center> [previous page ](https://github.com/GabeChurch/Building-Spark-Projects-with-SBT/blob/master/docs/Installing%20Spark%20and%20SBT.md)*Installing Spark and SBT*  &ensp; [next page]() None
