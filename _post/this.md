@@ -67,7 +67,7 @@ Sbt is used by a large portion of the scala community and is overwhelmingly popu
 ----------
 
 
-:page_with_curl: Build <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/0.13/docs/files/typesafe_sbt_svg.svg" width="50" height="10" border="0" ></a>
+:page_with_curl: Build <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/0.13/docs/files/typesafe_sbt_svg.svg" width="50" height="18" border="0" ></a>
 ---------------------------------
 This is the main location for build specifications. Can contain a number of tools to use in the construction of a project however, the main purpose of the build.sbt is to specify and acquire dependencies as needed for a project. The dependencies indicated in the build.sbt are known as **managed dependencies**.
 
