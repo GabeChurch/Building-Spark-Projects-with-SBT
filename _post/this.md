@@ -283,13 +283,6 @@ See https://sparkour.urizone.net/recipes/building-sbt/
 
 ---------------------
 
-------
-
-
-
----------
-
-
 
  [1]: http://www.scala-sbt.org/release/docs/Basic-Def.html
 
