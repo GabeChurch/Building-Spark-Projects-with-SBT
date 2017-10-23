@@ -284,7 +284,7 @@ See https://sparkour.urizone.net/recipes/building-sbt/
 ---------------------
 
 
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;[previous page](#none) *None* &ensp; &ensp; [next page][2] *Installing Spark and SBT*
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;[previous page](#none) *None* &ensp; &ensp; [next page][2] *Installing Spark and SBT*
 
  
 
