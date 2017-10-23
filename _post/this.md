@@ -1,5 +1,5 @@
 
-Intro to SBT / Your First Spark Build In <a href="http://www.scala-sbt.org"><img src ="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" width="100" height="100" border="10" ></a>
+Intro to <a href="http://www.scala-sbt.org"><img src ="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" width="100" height="100" border="0" ></a>
 ==================
 
 
@@ -24,7 +24,7 @@ They may have securities in place (kerberos authentication) and they may even di
 
 -------------
 
-Why use <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" width="100" height="100" border="10" ></a>
+Why use <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" width="100" height="100" border="0" ></a>
 -------------------
 
 #### Understanding your deployment
@@ -43,7 +43,7 @@ Sbt is used by a large portion of the scala community and is overwhelmingly popu
 ---------------------
 
 
-# Basic SBT Build Structure
+# Build Structure
 -------------------------------------
 
 :open_file_folder: **Top**
@@ -68,7 +68,7 @@ Sbt is used by a large portion of the scala community and is overwhelmingly popu
 ----------
 
 
-:page_with_curl: Build <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/0.13/docs/files/typesafe_sbt_svg.svg" width="50" height="50" border="10" ></a>
+:page_with_curl: Build <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/0.13/docs/files/typesafe_sbt_svg.svg" width="50" height="50" border="0" ></a>
 ---------------------------------
 This is the main location for build specifications. Can contain a number of tools to use in the construction of a project however, the main purpose of the build.sbt is to specify and acquire dependencies as needed for a project. The dependencies indicated in the build.sbt are known as **managed dependencies**.
 
@@ -85,7 +85,7 @@ This is the main location for build specifications. Can contain a number of tool
 
 - configured by key-value pairs. 
 
-$\qquad$$\qquad$ Ex : (where first pair is | *key* =name | *value*=Hello |)
+&emsp; &emsp; Ex : (where first pair is | *key* =name | *value*=Hello |)
 ```scala 
 lazy val root = (project in file("."))
   .settings(
@@ -106,12 +106,12 @@ Task Keys
 ```scala
 lazy val hello = taskKey[Unit]("An example task")
 ```
-$\qquad$*//See official documentation for more on other keys/key types*
-$\qquad$ [Here][1] .
+&emsp; *//See official documentation for more on other keys/key types*
+&emsp; [Here][1] .
 &ensp;
 
 #### Defining Tasks and Settings
-* done using **:=**
+* use **:=**
 * assigns a value to a setting 
 * or assigns a computation to a task
 
@@ -144,8 +144,7 @@ scalaVersion := "2.11.8"
 &ensp; 
 
 >**Note**
-
-> - ```scalaVersion``` needs to match your scala version
+>  ```scalaVersion``` needs to match your scala version
 
 
 ### Imports
@@ -255,21 +254,22 @@ See https://sparkour.urizone.net/recipes/building-sbt/
 * It is very similar to the src folder in an Apache Maven Build.
 
 
-###:open_file_folder: Main
+### :open_file_folder: Main
 
 * The main directory typically contains subfolders for your core application.
 
 
-####:open_file_folder: Resources
+#### :open_file_folder: Resources
 * Contains other files which may be crucial to your program and which are included in the java classpath at runtime. 
 * This folder is very useful for those building in apache spark with hive as it is the place to add any .xmls or configs (like a hive-site.xml needed for Spark-SQL hive support)
 
 
-####:open_file_folder: Scala *(or Java)*
+#### :open_file_folder: Scala *(or Java)*
 * This folder is the home for :page_with_curl: **your_program.scala**
 
 
-###:open_file_folder: Test
+### :open_file_folder: Test
+
 * This folder may contain test dependencies to run with sbt in a test mode.
 
 -------------------
@@ -364,12 +364,6 @@ spark.stop()
 
 
 ---------
-
-
-
-[TOC]
-
-
 
 
 
