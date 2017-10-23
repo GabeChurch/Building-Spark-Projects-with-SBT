@@ -3,8 +3,6 @@ Intro to SBT / Your First Spark Build In <a href="http://www.scala-sbt.org"><img
 ==================
 
 
--------------
-
 Basics
 -----------
 
@@ -30,7 +28,6 @@ Why use <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http:/
 -------------------
 
 #### Understanding your deployment
---------------------------
 Understanding how and why certain components work and rely on each other is crucial to success. SBT is the perfect choice for learning structure, management, and compilation. SBT is the perfect tool to assist in building or automate spark programs capable of more than just ETL.
 
 #### Save time 
@@ -48,25 +45,6 @@ Sbt is used by a large portion of the scala community and is overwhelmingly popu
 
 # Basic SBT Build Structure
 -------------------------------------
-
-<i class ="icon-folder-open"> </i> Top
-
-practice  &nbsp; <space> hello
-&emsp; Hello
-
-$\qquad$[<i class ="icon-file"></i> Build.sbt](#build)
-
-&emsp; trick
-
-: [<i class="icon-folder-open"></i> project](#project)
-: [<i class="icon-folder-open"></i> src](#src)
-: - [<i class="icon-folder-open"></i> main](#main)
-: - - [<i class="icon-folder-open"></i> resources](#resources)
-: - - [<i class="icon-folder-open"></i> scala](#scala)
-: - - - **<i class ="icon-file"></i> your_program.scala**
-: [<i class="icon-folder-open"></i> lib](#lib)
-
-
 
 :open_file_folder: **Top**
 
@@ -90,18 +68,7 @@ $\qquad$[<i class ="icon-file"></i> Build.sbt](#build)
 ----------
 
 
-
-
-
-
-
-----------
-
-
-#Build
-
-
-Build <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/0.13/docs/files/typesafe_sbt_svg.svg" width="50" height="50" border="10" ></a>
+:page_with_curl: Build <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/0.13/docs/files/typesafe_sbt_svg.svg" width="50" height="50" border="10" ></a>
 ---------------------------------
 This is the main location for build specifications. Can contain a number of tools to use in the construction of a project however, the main purpose of the build.sbt is to specify and acquire dependencies as needed for a project. The dependencies indicated in the build.sbt are known as **managed dependencies**.
 
@@ -265,7 +232,7 @@ See https://sparkour.urizone.net/recipes/building-sbt/
 
 --------------
 
-<i class ="icon-folder-open"></i> Project
+:open_file_folder: Project
 ---------------------
 * This directory is "a build within your build", which knows how to build your build. Otherwise referred to as the **meta-build**
 * NOT REQUIRED TO BUILD It is a support which can be thought of as an extension of the build.sbt
@@ -282,27 +249,27 @@ See https://sparkour.urizone.net/recipes/building-sbt/
 
 
 
-<i class ="icon-folder-open"></i> Src
+:open_file_folder: Src
 ----------------------
 * This folder contains the **main** and **test** folders
 * It is very similar to the src folder in an Apache Maven Build.
 
 
-###<i class ="icon-folder-open"></i> Main
+###:open_file_folder: Main
 
 * The main directory typically contains subfolders for your core application.
 
 
-####<i class ="icon-folder-open"></i> Resources
+####:open_file_folder: Resources
 * Contains other files which may be crucial to your program and which are included in the java classpath at runtime. 
 * This folder is very useful for those building in apache spark with hive as it is the place to add any .xmls or configs (like a hive-site.xml needed for Spark-SQL hive support)
 
 
-####<i class ="icon-folder-open"></i> Scala *(or Java)*
-* This folder is the home for **<i class ="icon-file"></i> your_program.scala**
+####:open_file_folder: Scala *(or Java)*
+* This folder is the home for :page_with_curl: **your_program.scala**
 
 
-###<i class ="icon-folder-open"></i> Test
+###:open_file_folder: Test
 * This folder may contain test dependencies to run with sbt in a test mode.
 
 -------------------
@@ -310,20 +277,21 @@ See https://sparkour.urizone.net/recipes/building-sbt/
 
 
 
-<i class ="icon-folder-open"></i> Lib
+:open_file_folder: Lib
 ----------------------
 
 > This is one of the most useful folders in the project, you can simply place your spark library/dependencies in this folder and your program will compile with them. These are **unmanaged dependencies** because sbt is not "building against them" using ivy or maven resolvers against repositories.
 
 ---------------------
 
-[create an anchor](#anchors-in-markdown)
+------
 
-#<line> Simple Spark SBT Build  
--------------------------------------
+ Simple Spark SBT Build  
+====================
 
-<i class ="icon-folder-open"> </i> Top
-$\qquad$[<i class ="icon-file"></i> Build.sbt](#build)
+:open_file_folder: **Top**
+
+&emsp; [:page_with_curl: **Build.sbt**](#build)
 ```scala
 
 name := "Hello"
@@ -338,13 +306,18 @@ libraryDependencies ++= Seq(
     "org.apache.commons" % "commons-csv" % "1.2"
 )
 ```
-<hide>
-: [<i class="icon-folder-open"></i> project](#project)
-: [<i class="icon-folder-open"></i> src](#src)
-: - [<i class="icon-folder-open"></i> main](#main)
-: - - [<i class="icon-folder-open"></i> resources](#resources)
-: - - [<i class="icon-folder-open"></i> scala](#scala)
-: - - - **<i class ="icon-file"></i> SparkBasic.scala**
+
+&emsp; [:open_file_folder: **project**](#project)
+
+&emsp; [:open_file_folder: **src**](#src)
+
+&emsp; &emsp; [:open_file_folder: **main**](#main)
+
+&emsp; &emsp; &emsp; [:open_file_folder: **resources**](#resources)
+
+&emsp; &emsp; &emsp; [:open_file_folder: **scala**](#scala)
+
+&emsp; &emsp; &emsp; &emsp; :page_with_curl: **SparkBasics.scala**
 
 ```scala
 package example
@@ -381,8 +354,8 @@ spark.stop()
 }
 
 ```
-<hide>
-: [<i class="icon-folder-open"></i> lib](#lib)
+
+&emsp; [:open_file_folder: **lib**](#lib)
 
 ----------
 
@@ -390,9 +363,9 @@ spark.stop()
 *If you are building spark on a hadoop cluster you will need a more advanced spark config, and you may need to add specific resolvers and version dependencies. *
 
 
+---------
 
 
-#anchors-in-markdown
 
 [TOC]
 
