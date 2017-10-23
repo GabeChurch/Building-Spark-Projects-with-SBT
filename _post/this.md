@@ -69,13 +69,21 @@ $\qquad$[<i class ="icon-file"></i> Build.sbt](#build)
 
 
 :open_file_folder: **Top**
+
 &emsp; [:page_with_curl: **Build.sbt**](#build)
+
 &emsp; [:open_file_folder: **project**](#project)
+
 &emsp; [:open_file_folder: **src**](#src)
+
 &emsp; &emsp; [:open_file_folder: **main**](#main)
+
 &emsp; &emsp; &emsp; [:open_file_folder: **resources**](#resources)
+
 &emsp; &emsp; &emsp; [:open_file_folder: **scala**](#scala)
+
 &emsp; &emsp; &emsp; &emsp; :page_with_curl: **your_program.scala**
+
 &emsp; [:open_file_folder: **lib**](#lib)
 
 
