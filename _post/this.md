@@ -2,7 +2,7 @@
 Intro to <a href="http://www.scala-sbt.org"><img src ="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" top="70" width="70" height="70" border="0" ></a>
 ==================
 
-# Hello <img style="float: right;" src="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" height="70">
+# Hello <img style="float: none;" src="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" height="70">
  
 
 Basics
