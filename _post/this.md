@@ -4,6 +4,9 @@ Intro to <a href="http://www.scala-sbt.org"><img src ="http://www.scala-sbt.org/
 
 ## Hello <img style="float: none;" src="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" height="70"> <div style="text-align:center" markdown="1">
 
+hey you
+there
+this is me 
 <img style="float: none;" src="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" height="70">
  
 
