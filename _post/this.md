@@ -101,7 +101,7 @@ $\qquad$[<i class ="icon-file"></i> Build.sbt](#build)
 
 
 
-<i class ="icon-file"></i> Build <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/0.13/docs/files/typesafe_sbt_svg.svg" width="50" height="50" border="10" ></a>
+Build <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/0.13/docs/files/typesafe_sbt_svg.svg" width="50" height="50" border="10" ></a>
 ---------------------------------
 This is the main location for build specifications. Can contain a number of tools to use in the construction of a project however, the main purpose of the build.sbt is to specify and acquire dependencies as needed for a project. The dependencies indicated in the build.sbt are known as **managed dependencies**.
 
