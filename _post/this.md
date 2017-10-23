@@ -98,7 +98,7 @@ $\qquad$[<i class ="icon-file"></i> Build.sbt](#build)
 ----------
 
 
-
+#Build
 
 
 Build <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/0.13/docs/files/typesafe_sbt_svg.svg" width="50" height="50" border="10" ></a>
