@@ -1,12 +1,9 @@
 
-<text ="Intro to"> <a href="http://www.scala-sbt.org"><img src ="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" height="30" width="60" border="0" ></a>
+Intro to <a href="http://www.scala-sbt.org"><img src ="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" height="30" width="60" border="0" ></a>
 ==================
 
 Basics
 -----------
-
-<font face="Verdana, Arial, Helvetica, sans-serif" size="30" height="10" color=##3B4E61 >Friday, September 26, 2008</font>
-
 
 Like much of the hadoop ecosystem, Apache Spark was built in scala. Scala is a functional/object-oriented language founded by *Martin Odersky* which is built on/in **Java**. <i class="icon-coffee"></i>
 
