@@ -48,7 +48,7 @@ Sbt is used by a large portion of the scala community and is overwhelmingly popu
 
 :open_file_folder: **Top**
 
-&emsp; [:page_with_curl: **Build.sbt**](#build)
+&emsp; [:page_with_curl: **Build.sbt**](#page_with_curl-build-)
 
 &emsp; [:open_file_folder: **project**](#project)
 
