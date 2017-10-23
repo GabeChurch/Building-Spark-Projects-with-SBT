@@ -8,12 +8,13 @@ You can copy the entire repository into your current directory using
 ```
 git clone https://github.com/GabeChurch/Building-Spark-Projects-with-SBT
 ```
-Or the RECOMMENDED way to just get this build is to use 
+OR the RECOMMENDED METHOD to only get this build is to use 
 ```
-svn export https://github.com/lodash/lodash/trunk/docs
+svn export https://github.com/GabeChurch/Building-Spark-Projects-with-SBT/Simple-SBT-Spark-Build
 
 ```
 
+## Directory Contains
 :open_file_folder: **Top**
 
 &emsp; [:page_with_curl: **Build.sbt**](#build)
@@ -85,8 +86,9 @@ spark.stop()
 ----------
 
 
+
+
+This build is utilizing the default maven resolvers to get the specified spark versions and their dependencies. It is setup to run only in local mode.
+
+
 *If you are building spark on a hadoop cluster you will need a more advanced spark config, and you may need to add specific resolvers and version dependencies. *
-
-
-
-> Written with [StackEdit](https://stackedit.io/).
