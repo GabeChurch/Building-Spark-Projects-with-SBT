@@ -50,15 +50,15 @@ Sbt is used by a large portion of the scala community and is overwhelmingly popu
 
 &emsp; [:page_with_curl: **Build.sbt**](#page_with_curl-build-)
 
-&emsp; [:open_file_folder: **project**](#project)
+&emsp; [:open_file_folder: **project**](#open_file_folder-project)
 
-&emsp; [:open_file_folder: **src**](#src)
+&emsp; [:open_file_folder: **src**](#open_file_folder-src)
 
-&emsp; &emsp; [:open_file_folder: **main**](#main)
+&emsp; &emsp; [:open_file_folder: **main**](#open_file_folder-main)
 
-&emsp; &emsp; &emsp; [:open_file_folder: **resources**](#resources)
+&emsp; &emsp; &emsp; [:open_file_folder: **resources**](#open_file_folder-resources)
 
-&emsp; &emsp; &emsp; [:open_file_folder: **scala**](#scala)
+&emsp; &emsp; &emsp; [:open_file_folder: **scala**](#open_file_folder-scala)
 
 &emsp; &emsp; &emsp; &emsp; :page_with_curl: **your_program.scala**
 
