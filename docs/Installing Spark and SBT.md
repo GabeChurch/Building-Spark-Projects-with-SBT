@@ -138,3 +138,9 @@ Template applied in ./hello
 
 
 ------------
+
+
+&ensp;
+&ensp;
+&ensp;
+<center> [previous page ](https://github.com/GabeChurch/Building-Spark-Projects-with-SBT/blob/master/docs/Intro%20to%20SBT.md)*Intro to SBT*  &ensp; &ensp; [next page](https://github.com/GabeChurch/Building-Spark-Projects-with-SBT/blob/master/docs/Simple%20SBT%20Spark%20Build.md) *Simple SBT Spark Build*
