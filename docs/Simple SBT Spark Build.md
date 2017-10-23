@@ -96,8 +96,8 @@ This build is utilizing the default maven resolvers to get the specified spark v
 &ensp;
 &ensp;
 &ensp;
-<p align="center"> [previous page][1] *Installing Spark and SBT*  &ensp; &ensp; [next page](#none) *None* </p>
 
-[previous page][1]
+
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;[previous page][1] *Installing Spark and SBT* &ensp; &ensp; [next page](#none) *None* 
 
  [1]: https://github.com/GabeChurch/Building-Spark-Projects-with-SBT/blob/master/docs/Installing%20Spark%20and%20SBT.md
