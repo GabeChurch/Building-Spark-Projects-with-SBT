@@ -1,5 +1,5 @@
 
-Intro to <a href="http://www.scala-sbt.org"><img src ="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" height="60" length="60" width="60" border="0" ></a>
+Intro to <a href="http://www.scala-sbt.org"><img src ="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" height="40" length="60" width="60" border="0" ></a>
 ==================
 
 #Intro to <img style="float: none;" src="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" height="70"> <div style="text-align:center" markdown="1">
