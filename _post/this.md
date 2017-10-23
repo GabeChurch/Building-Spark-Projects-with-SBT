@@ -23,7 +23,7 @@ They may have securities in place (kerberos authentication) and they may even di
 
 -------------
 
-Why use <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" width="60" height="100" border="0" ></a>
+Why use <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" width="60" height="30" border="0" ></a>
 -------------------
 
 #### Understanding your deployment
