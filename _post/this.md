@@ -2,18 +2,6 @@
 Intro to <a href="http://www.scala-sbt.org"><img src ="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" height="40" length="60" width="60" border="0" ></a>
 ==================
 
-#Intro to <img style="float: none;" src="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" height="70"> 
-
-hehehe <div style="text-align:center" markdown="1"> hhehehe
-
-hey you
-there
-this is me 
-
-<img style="float: none;" src="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" height="70">
- 
-
-
 Basics
 -----------
 
@@ -35,7 +23,7 @@ They may have securities in place (kerberos authentication) and they may even di
 
 -------------
 
-Why use <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" width="100" height="100" border="0" ></a>
+Why use <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" width="60" height="100" border="0" ></a>
 -------------------
 
 #### Understanding your deployment
