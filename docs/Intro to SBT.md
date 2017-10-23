@@ -284,8 +284,17 @@ See https://sparkour.urizone.net/recipes/building-sbt/
 ---------------------
 
 
- [1]: http://www.scala-sbt.org/release/docs/Basic-Def.html
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;[previous page](#none) *None* &ensp; &ensp; [next page][2] *Installing Spark and SBT*
 
+ 
+
+
+
+
+
+
+ [1]: http://www.scala-sbt.org/release/docs/Basic-Def.html
+[2]: https://github.com/GabeChurch/Building-Spark-Projects-with-SBT/blob/master/docs/Installing%20Spark%20and%20SBT.md
 
 
 
