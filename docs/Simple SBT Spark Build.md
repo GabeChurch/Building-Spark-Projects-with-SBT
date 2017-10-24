@@ -47,7 +47,7 @@ git clone https://github.com/GabeChurch/Building-Spark-Projects-with-SBT
 ### Managed Dependency Build
 ![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **Top**
 
-&emsp; [:page_with_curl: **Build.sbt**](#none)
+&emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **Build.sbt**](#none)
 ```scala
 
 name := "Hello"
@@ -124,7 +124,7 @@ spark.stop()
 ### Unmanaged Dependency Build
 
 
-&emsp; [:page_with_curl: **Build.sbt**](#none)
+&emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **Build.sbt**](#none)
 ```scala
 
 name := "Hello"
@@ -134,22 +134,22 @@ version := "1.0"
 scalaVersion := "2.11.8"
 ```
 
-&emsp; [:open_file_folder: **project**](#none)
+&emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **project**](#none)
 &emsp; &emsp; :page_with_curl: **build.properties**
 ```
 sbt.version=0.13.16
 ```
 
-&emsp; [:open_file_folder: **src**](#none)
+&emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **src**](#none)
 
-&emsp; &emsp; [:open_file_folder: **main**](#none)
+&emsp; &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **main**](#none)
 
-&emsp; &emsp; &emsp; [:open_file_folder: **resources**](#none)
+&emsp; &emsp; &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **resources**](#none)
 >Put any of your config.xml files here, for instance a default spark config, or hive-site.xml for use with hive
 
-&emsp; &emsp; &emsp; [:open_file_folder: **scala**](#none)
+&emsp; &emsp; &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **scala**](#none)
 
-&emsp; &emsp; &emsp; &emsp; :page_with_curl: **SparkBasics.scala**
+&emsp; &emsp; &emsp; &emsp; ![Image of file icon](https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png) **SparkBasics.scala**
 
 ```scala
 package SparkExample
@@ -218,7 +218,7 @@ spark.stop()
 
 ```
 
-&emsp; [:open_file_folder: **lib**](#none)
+&emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **lib**](#none)
 	>You need to place your dependencies here. Find your spark home and copy the contents of the jars folder to this location
 
 
