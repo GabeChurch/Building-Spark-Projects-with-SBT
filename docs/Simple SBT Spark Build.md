@@ -23,23 +23,7 @@ This build is utilizing the default maven resolvers to get the specified spark v
 
 *If you are building spark on a hadoop cluster you will need a more advanced spark config, and you may need to add specific resolvers and version dependencies. *
 
-## Building with Unmanaged Dependencies
-
-**If you already have an installed version of spark can be the method to use if you wish to build against your current version of spark or use spark on your cluster (in yarn-client mode, with hive, etc)** As discussed in the [Intro to SBT][3], this is generally the easiest option for running in cluster mode. It does have some drawbacks in terms of build clarity. It may make more complex projects difficult or impossible to emulate or share with others. 
-
-To download the sbt spark example for unmanaged dependencies use:
-```
-svn export https://github.com/GabeChurch/Building-Spark-Projects-with-SBT/builds/SimpleSBTSpark_UnmanagedDeps
-```
-
-You will also need to copy the entire contents of the jars from ```path_to/your_spark_version/jars``` to ```path_to_this_build/build/SimpleSBTSpark_UnmanagedDeps/libs ```
-
-*You can also clone the entire repository into your current directory using*
-```
-git clone https://github.com/GabeChurch/Building-Spark-Projects-with-SBT
-```
-
-## Managed Dependency Build
+### Managed Dependency Build
 ![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **Top**
 <details>
 	<summary> &emsp; <img src="https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png" alt="pic" /><b> Build.sbt </b> </summary>
@@ -61,23 +45,24 @@ libraryDependencies ++= Seq(
 </div>
 </details>
 
-&emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **project**](#none)
+&emsp; ![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **project**
 
 <details>
 	<summary> &emsp; &emsp; <img src="https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png" alt="pic" /><b> build.properties </b> </summary>
+	<div markdown="1">
 ```scala
 sbt.version=0.13.16
 ```
 </div>
 </details>
 
-&emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **src**](#none)
+&emsp; ![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **src**
 
-&emsp; &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **main**](#none)
+&emsp; &emsp; ![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **main**
 
-&emsp; &emsp; &emsp; [![closed file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-close-24.png) **resources**](#none)
+&emsp; &emsp; &emsp; ![closed file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-close-24.png) **resources**
 
-&emsp; &emsp; &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **scala**](#none)
+&emsp; &emsp; &emsp; ![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **scala**
 <details>
 	<summary> &emsp; &emsp; &emsp;&emsp; <img src="https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png" alt="pic" /><b> SparkExample.scala </b> </summary>
 	<div markdown="1">
@@ -116,12 +101,28 @@ spark.stop()
 </div>
 </details>
 
-&emsp; [![closed file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-close-24.png) **lib**](#none)
+&emsp; ![closed file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-close-24.png) **lib**
 
 ----------
 
 
-## Unmanaged Dependency Build
+## Building with Unmanaged Dependencies
+
+**If you already have an installed version of spark can be the method to use if you wish to build against your current version of spark or use spark on your cluster (in yarn-client mode, with hive, etc)** As discussed in the [Intro to SBT][3], this is generally the easiest option for running in cluster mode. It does have some drawbacks in terms of build clarity. It may make more complex projects difficult or impossible to emulate or share with others. 
+
+To download the sbt spark example for unmanaged dependencies use:
+```
+svn export https://github.com/GabeChurch/Building-Spark-Projects-with-SBT/builds/SimpleSBTSpark_UnmanagedDeps
+```
+
+You will also need to copy the entire contents of the jars from ```path_to/your_spark_version/jars``` to ```path_to_this_build/build/SimpleSBTSpark_UnmanagedDeps/libs ```
+
+*You can also clone the entire repository into your current directory using*
+```
+git clone https://github.com/GabeChurch/Building-Spark-Projects-with-SBT
+```
+
+### Unmanaged Dependency Build
 ![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **Top**
 <details>
 	<summary> &emsp; <img src="https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png" alt="pic" /><b> Build.sbt </b> </summary>
@@ -137,24 +138,25 @@ scalaVersion := "2.11.8"
 </div>
 </details>
 
-&emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **project**](#none)
+&emsp; ![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **project**
 
 <details>
 	<summary> &emsp; &emsp; <img src="https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png" alt="pic" /><b> build.properties </b> </summary>
+	<div markdown="1">
 ```scala
 sbt.version=0.13.16
 ```
 </div>
 </details>
 
-&emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **src**](#none)
+&emsp; ![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **src**
 
-&emsp; &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **main**](#none)
+&emsp; &emsp; ![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **main**
 
-&emsp; &emsp; &emsp; [![closed file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-close-24.png) **resources**](#none)
+&emsp; &emsp; &emsp; ![closed file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-close-24.png) **resources**
 > Put any of your .xml spark or hive configs files here. 
 
-&emsp; &emsp; &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **scala**](#none)
+&emsp; &emsp; &emsp; ![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **scala**
 <details>
 	<summary> &emsp; &emsp; &emsp;&emsp; <img src="https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png" alt="pic" /><b> SparkExample.scala </b> </summary>
 	<div markdown="1">
@@ -227,11 +229,16 @@ spark.stop()
 </div>
 </details>
 
-&emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **lib**](#none)
-	>You need to place your dependencies here. Find your spark home and copy the contents of the jars folder to this location
+<details>
+	<summary> &emsp; <img src="https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png" alt="pic" /><b> lib </b> </summary>
+	<div markdown="1">
+		>You need to place your dependencies here. Find your spark home and copy the contents of the jars folder to this location
+		</div>
+		</details>
 
+--------
 
-###Running
+##Running
 To run the sbt build navigate to the main directory (which contains the build.sbt), and type
 ```
 user$ sbt
@@ -241,7 +248,7 @@ Then
 user$ > run
 ```
 
-###Closing
+##Closing
 You can exit the build with
 
 ```
