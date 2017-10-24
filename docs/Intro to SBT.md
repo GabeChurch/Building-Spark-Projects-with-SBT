@@ -3,6 +3,8 @@ title: Intro to SBT
 permalink: /intro/
 ---
 
+<a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" width="60" height="30" border="0" ></a>
+
 Intro to <a href="http://www.scala-sbt.org"><img src ="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" height="30" width="60" border="0" ></a>
 ==================
 
