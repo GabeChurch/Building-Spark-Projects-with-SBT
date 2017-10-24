@@ -1,9 +1,9 @@
 
 ---
 title: Simple SBT Spark Build
-
 permalink: /SimpleSBTSparkBuild/
 ---
+
 
  Simple <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/assets/sbt-logo.svg" width="60" height="30" border="0" ></a> Spark Build  
 ====================
