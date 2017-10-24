@@ -237,7 +237,7 @@ spark.stop()
 <details>
 	<summary> &emsp; <img src="https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png" alt="pic" /><b> lib </b> </summary>
 	<div markdown="1">
-		> You need to place your dependencies here. Find your spark home and copy the contents of the jars folder to this location
+You need to place your dependencies here. Find your spark home and copy the contents of the jars folder to this location
 
 </div>
 	</details>
