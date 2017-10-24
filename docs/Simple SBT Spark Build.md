@@ -4,6 +4,7 @@ permalink: /SimpleSBTSparkBuild/
 ---
 
 
+
  Simple <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/assets/sbt-logo.svg" width="60" height="30" border="0" ></a> Spark Build  
 ====================
 
@@ -44,7 +45,7 @@ git clone https://github.com/GabeChurch/Building-Spark-Projects-with-SBT
 
 
 ### Managed Dependency Build
-:open_file_folder: **Top**
+![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **Top**
 
 &emsp; [:page_with_curl: **Build.sbt**](#none)
 ```scala
@@ -62,21 +63,22 @@ libraryDependencies ++= Seq(
 )
 ```
 
-&emsp; [:open_file_folder: **project**](#none)
-&emsp; &emsp; :page_with_curl: **build.properties**
+&emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **project**](#none)
+
+&emsp; &emsp; ![Image of file icon](https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png) **build.properties**
 ```
 sbt.version=0.13.16
 ```
 
-&emsp; [:open_file_folder: **src**](#none)
+&emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **src**](#none)
 
-&emsp; &emsp; [:open_file_folder: **main**](#none)
+&emsp; &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **main**](#none)
 
-&emsp; &emsp; &emsp; [:open_file_folder: **resources**](#none)
+&emsp; &emsp; &emsp; [![closed file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-close-24.png) **resources**](#none)
 
-&emsp; &emsp; &emsp; [:open_file_folder: **scala**](#none)
+&emsp; &emsp; &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **scala**](#none)
 
-&emsp; &emsp; &emsp; &emsp; :page_with_curl: **SparkBasics.scala**
+&emsp; &emsp; &emsp; &emsp; ![Image of file icon](https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png) **SparkBasics.scala**
 
 ```scala
 package SparkExample
@@ -114,7 +116,7 @@ spark.stop()
 
 ```
 
-&emsp; [:open_file_folder: **lib**](#none)
+&emsp; [![closed file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-close-24.png) **lib**](#none)
 
 ----------
 
