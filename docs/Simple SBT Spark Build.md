@@ -12,7 +12,7 @@ The first step to any sbt spark build is to identify a method (or identify the r
 
 To download the sbt spark example for managed dependencies use:
 ```
-svn export https://github.com/GabeChurch/Building-Spark-Projects-with-SBT/builds/SimpleSBTSpark_ManagedDeps
+svn export https://github.com/GabeChurch/Building-Spark-Projects-with-SBT/tree/master/builds/SimpleSBTSpark_ManagedDeps
 
 ```
 This build is utilizing the default maven resolvers to get the specified spark versions and their dependencies. It is setup to run only in local mode.
