@@ -59,6 +59,10 @@ libraryDependencies ++= Seq(
 ```
 
 &emsp; [:open_file_folder: **project**](#none)
+&emsp; &emsp; :page_with_curl: **build.properties**
+```
+sbt.version=0.13.16
+```
 
 &emsp; [:open_file_folder: **src**](#none)
 
@@ -125,6 +129,10 @@ scalaVersion := "2.11.8"
 ```
 
 &emsp; [:open_file_folder: **project**](#none)
+&emsp; &emsp; :page_with_curl: **build.properties**
+```
+sbt.version=0.13.16
+```
 
 &emsp; [:open_file_folder: **src**](#none)
 
