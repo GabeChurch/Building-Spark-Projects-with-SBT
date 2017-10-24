@@ -56,7 +56,11 @@ If you use mobaXterm you can install svn directly in Xterm with
 
 ----------------
 
-[Return to Installing SBT][1] 
+&emsp;
+&emsp;
+&emsp;
+
+[Back to Installing SBT][1] 
 {: style="text-align: center"}
 
 
