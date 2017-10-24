@@ -7,7 +7,7 @@ Basics
 
 Like much of the hadoop ecosystem, Apache Spark was built in scala. Scala is a functional/object-oriented language founded by *Martin Odersky* which is built on/in **Java**. <i class="icon-coffee"></i>
 
-This is important because both Java and Scala programs are compiled into jars, which form the basis of our Spark installations. **DEPENDENCIES**
+This is important because both Java and Scala programs are compiled into jars, which form the basis of our spark installations: **DEPENDENCIES**.
 
 These spark installations can vary quite widely among the different platforms which support and are capable of supporting spark. These platforms include:
 
@@ -27,7 +27,7 @@ Why use <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http:/
 -------------------
 
 #### Understanding your deployment
-Understanding how and why certain components work and rely on each other is crucial to success. SBT is the perfect choice for learning structure, management, and compilation. SBT is the perfect tool to assist in building or automate spark programs capable of more than just ETL.
+Understanding how and why certain components work and rely on each other is crucial to success. SBT is the perfect choice for learning structure, management, and compilation. SBT is also a fantastic tool to assist in building or automate spark programs capable of more than just ETL.
 
 #### Save time 
 Sbt is a scala compiler that builds on the apache maven project and adds dependency management with apache ivy. It supports writing scala to identify dependencies (useful for making programs which can compile against many operating systems or versions) and is far and away the compilation tool of choice for spark.
@@ -161,7 +161,7 @@ import Keys._
 ### Adding a Library (managed Dependencies)
 
 * These libraries, or dependencies,  are the backbone of your program.
-* It is important that these dependencies match those contained in your specific deployment (unless you are running in a container environment such as docker)
+* It is important that these dependencies match those contained in your specific deployment (unless you are running in a container environment such as docker).
 * We can use unmanaged dependencies if we wish, see the [lib directory](#lib).
 
 #### May Be Contained in Val(s)
@@ -186,7 +186,7 @@ lazy val root = (project in file("."))
 ```scala
 libraryDependencies += "org.apache.derby" % "derby" % "10.4.1.3"
 ```
-You can add multiple Dependencies this way
+You can add multiple Dependencies in this way
 ```scala
 libraryDependencies ++= Seq(
     "org.apache.derby" % "derby" % "10.4.1.3"
@@ -201,9 +201,9 @@ Also notice the val **sparkVersion**, sbt can use vals set in the place of speci
 ### Resolvers
 
 * Resolvers are repositories sbt uses to "resolve" managed dependencies. 
-* Sbt is shipped with the main maven repository https://repo1.maven.org/maven2/
+* Sbt is shipped with the main maven repository https://repo1.maven.org/maven2/ 
 
-You can add resolvers in the same manner as dependencies 
+You can add resolvers in a similar manner to dependencies. 
 ```scala
 resolvers += 
   "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
