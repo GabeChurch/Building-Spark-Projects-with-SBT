@@ -8,7 +8,6 @@ permalink: /SimpleSBTSparkBuild/
  Simple <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/assets/sbt-logo.svg" width="60" height="30" border="0" ></a> Spark Build  
 ====================
 
-
 The first step to any sbt spark build is to identify a method (or identify the required method) of project dependency management. 
 
 ## Building with Managed Dependencies
@@ -21,7 +20,6 @@ svn export https://github.com/GabeChurch/Building-Spark-Projects-with-SBT/tree/m
 
 ```
 This build is utilizing the default maven resolvers to get the specified spark versions and their dependencies. It is setup to run only in local mode.
-
 
 *If you are building spark on a hadoop cluster you will need a more advanced spark config, and you may need to add specific resolvers and version dependencies. *
 
@@ -36,18 +34,16 @@ svn export https://github.com/GabeChurch/Building-Spark-Projects-with-SBT/builds
 
 You will also need to copy the entire contents of the jars from ```path_to/your_spark_version/jars``` to ```path_to_this_build/build/SimpleSBTSpark_UnmanagedDeps/libs ```
 
-
-
 *You can also clone the entire repository into your current directory using*
 ```
 git clone https://github.com/GabeChurch/Building-Spark-Projects-with-SBT
 ```
 
-
 ## Managed Dependency Build
 ![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **Top**
-
-&emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **Build.sbt**](#none)
+<details>
+	<summary> &emsp; <img src="https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png" alt="pic" /><b> Build.sbt </b> </summary>
+	<div markdown="1">
 ```scala
 
 name := "Hello"
@@ -62,13 +58,18 @@ libraryDependencies ++= Seq(
     "org.apache.commons" % "commons-csv" % "1.2"
 )
 ```
+</div>
+</details>
 
 &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **project**](#none)
 
-&emsp; &emsp; ![Image of file icon](https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png) **build.properties**
-```
+<details>
+	<summary> &emsp; &emsp; <img src="https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png" alt="pic" /><b> build.properties </b> </summary>
+```scala
 sbt.version=0.13.16
 ```
+</div>
+</details>
 
 &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **src**](#none)
 
@@ -80,7 +81,7 @@ sbt.version=0.13.16
 <details>
 	<summary> &emsp; &emsp; &emsp;&emsp; <img src="https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png" alt="pic" /><b> SparkExample.scala </b> </summary>
 	<div markdown="1">
-```
+```scala
 package SparkExample
 object entirety extends App {
 
@@ -121,9 +122,10 @@ spark.stop()
 
 
 ## Unmanaged Dependency Build
-
-
-&emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **Build.sbt**](#none)
+![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **Top**
+<details>
+	<summary> &emsp; <img src="https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png" alt="pic" /><b> Build.sbt </b> </summary>
+	<div markdown="1">
 ```scala
 
 name := "Hello"
@@ -132,24 +134,30 @@ version := "1.0"
 
 scalaVersion := "2.11.8"
 ```
+</div>
+</details>
 
 &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **project**](#none)
-&emsp; &emsp; :page_with_curl: **build.properties**
-```
+
+<details>
+	<summary> &emsp; &emsp; <img src="https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png" alt="pic" /><b> build.properties </b> </summary>
+```scala
 sbt.version=0.13.16
 ```
+</div>
+</details>
 
 &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **src**](#none)
 
 &emsp; &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **main**](#none)
 
-&emsp; &emsp; &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **resources**](#none)
->Put any of your config.xml files here, for instance a default spark config, or hive-site.xml for use with hive
+&emsp; &emsp; &emsp; [![closed file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-close-24.png) **resources**](#none)
+> Put any of your .xml spark or hive configs files here. 
 
 &emsp; &emsp; &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **scala**](#none)
-
-&emsp; &emsp; &emsp; &emsp; ![Image of file icon](https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png) **SparkBasics.scala**
-
+<details>
+	<summary> &emsp; &emsp; &emsp;&emsp; <img src="https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png" alt="pic" /><b> SparkExample.scala </b> </summary>
+	<div markdown="1">
 ```scala
 package SparkExample
 
@@ -216,6 +224,8 @@ spark.stop()
 }
 
 ```
+</div>
+</details>
 
 &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **lib**](#none)
 	>You need to place your dependencies here. Find your spark home and copy the contents of the jars folder to this location
