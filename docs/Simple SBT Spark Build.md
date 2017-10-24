@@ -1,4 +1,3 @@
-
 ---
 title: Simple SBT Spark Build
 permalink: /SimpleSBTSparkBuild/
