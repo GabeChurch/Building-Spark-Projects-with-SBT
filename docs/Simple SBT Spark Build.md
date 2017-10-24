@@ -1,6 +1,7 @@
 
 ---
 title: Simple SBT Spark Build
+
 permalink: /SimpleSBTSparkBuild/
 ---
 
@@ -247,8 +248,8 @@ user$ > exit
 &ensp;
 
 
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; [previous page][1] *Installing Spark and SBT* &ensp; &ensp; [next page](#none) *None* 
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; [previous page][1] *Installing SBT* &ensp; &ensp; [next page](#none) *None* 
 
- [1]: https://github.com/GabeChurch/Building-Spark-Projects-with-SBT/blob/master/docs/Installing%20Spark%20and%20SBT.md
+ [1]: https://gabechurch.github.io/Building-Spark-Projects-with-SBT/InstallingSBT/
 
 [3]:https://github.com/GabeChurch/Building-Spark-Projects-with-SBT/blob/master/docs/Intro%20to%20SBT.md
