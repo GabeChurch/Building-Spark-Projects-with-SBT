@@ -236,7 +236,7 @@ See https://sparkour.urizone.net/recipes/building-sbt/
 ---------------------
 * This directory is "a build within your build", which knows how to build your build. Otherwise referred to as the **meta-build**
 
-* This folder is the home for :page_with_curl: **build.properties** which contain the sbt version information. I have found version 0.13.16 is the best for spark builds
+* This folder is the home for :page_with_curl: **build.properties** which contains the sbt version information. I have found version 0.13.16 to be the most stable for spark builds.
 
 *  Commonly contains a file called **Dependencies.scala** which is a source file in the build definition. 
 	* Can be any name ```any_name.scala```
