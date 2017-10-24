@@ -1,6 +1,6 @@
 ---
 title: Intro to SBT
-permalink: /intro/
+permalink: /SBTSpark/IntrotoSBT/
 ---
 
 
