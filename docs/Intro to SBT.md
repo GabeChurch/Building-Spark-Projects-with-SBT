@@ -98,7 +98,7 @@ lazy val root = (project in file("."))
 #### Two (main) Types of Keys
  Setting Keys
 : Some setting which will be computed at project load time 
-- $\qquad$  the previous sub-project example is a setting key value pair
+- &emsp;  the previous sub-project example is a setting key value pair
 &ensp;
 
 Task Keys
