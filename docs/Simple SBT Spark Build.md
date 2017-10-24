@@ -83,7 +83,6 @@ sbt.version=0.13.16
 		**SparkExample.scala**
 	</summary>
 		<div>
-		<p>
 package SparkExample
 object entirety extends App {
 
@@ -114,7 +113,6 @@ lpDF.orderBy(desc("percent")).show(false)
 
 spark.stop()
 }
-		</p>
 		</div>
 </details>
 
