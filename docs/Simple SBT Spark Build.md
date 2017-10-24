@@ -276,4 +276,4 @@ user$ > exit
 
  [1]: https://gabechurch.github.io/Building-Spark-Projects-with-SBT/InstallingSBT/
 
-[3]:https://github.com/GabeChurch/Building-Spark-Projects-with-SBT/blob/master/docs/Intro%20to%20SBT.md
+[3]: https://gabechurch.github.io/Building-Spark-Projects-with-SBT/IntrotoSBT/
