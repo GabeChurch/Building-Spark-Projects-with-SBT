@@ -6,7 +6,6 @@
 
 The first step to any sbt spark build is to identify a method (or identify the required method) of project dependency management. 
 
-
 ### Building with Managed Dependencies
 
 **If you do not have any installed version of spark this will be the method you will use.** We discussed managed dependencies in the [Intro to SBT][3]. As a refresher, you specify these dependencies in your build.sbt file and acquire them from the default maven (or custom) repo(s) by adding library dependencies with the target version of spark. You may need different dependencies according to your build goals. See the managed dependency build.sbt
