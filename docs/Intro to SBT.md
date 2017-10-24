@@ -51,6 +51,8 @@ Sbt is used by a large portion of the scala community and is overwhelmingly popu
 
 &emsp; [:open_file_folder: **project**](#open_file_folder-project)
 
+&emsp; &emsp; :page_with_curl: **build.properties**
+
 &emsp; [:open_file_folder: **src**](#open_file_folder-src)
 
 &emsp; &emsp; [:open_file_folder: **main**](#open_file_folder-main)
@@ -233,7 +235,9 @@ See https://sparkour.urizone.net/recipes/building-sbt/
 :open_file_folder: Project
 ---------------------
 * This directory is "a build within your build", which knows how to build your build. Otherwise referred to as the **meta-build**
-* NOT REQUIRED TO BUILD It is a support which can be thought of as an extension of the build.sbt
+
+* This folder is the home for :page_with_curl: **build.properties** which contain the sbt version information. I have found version 0.13.16 is the best for spark builds
+
 *  Commonly contains a file called **Dependencies.scala** which is a source file in the build definition. 
 	* Can be any name ```any_name.scala```
 	* Can also contain multiple .scala files 
