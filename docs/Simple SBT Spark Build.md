@@ -82,6 +82,7 @@ sbt.version=0.13.16
 	<summary>
 		**SparkExample.scala**
 	</summary>
+	
   ```
 package SparkExample
 object entirety extends App {
