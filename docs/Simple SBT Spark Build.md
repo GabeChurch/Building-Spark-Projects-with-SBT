@@ -81,7 +81,9 @@ sbt.version=0.13.16
 <details>
 	<summary>
 		**SparkExample.scala**
-	</summary><code style=display:block;white-space:pre-wrap>
+	</summary>
+		<div>
+		<p>
 package SparkExample
 object entirety extends App {
 
@@ -112,7 +114,8 @@ lpDF.orderBy(desc("percent")).show(false)
 
 spark.stop()
 }
-		</code>
+		</p>
+		<div>
 </details>
 
 &emsp; [![closed file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-close-24.png) **lib**](#none)
