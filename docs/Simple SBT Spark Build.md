@@ -79,7 +79,7 @@ sbt.version=0.13.16
 &emsp; &emsp; &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **scala**](#none)
  
 <details>
-	<summary> **SparkExample.scala**</summary>
+	<summary>**SparkExample.scala**</summary>
 		<p>
 package SparkExample
 object entirety extends App {
