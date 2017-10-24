@@ -6,69 +6,6 @@ Installing  <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="ht
 -------------
 
 
-
-Installing 
------------
-
-
-*(Click on the following for instructions on installing your OS specific version)*
-### Windows
-
-#### [Installing SBT](#windows-installation)
-
-
-### Mac
-
-#### [Installing SBT](#mac-installation)
-
-
-### Linux
-
-#### [Installing SBT](#linux-installation)
-
---------
-
-
-#Building a Sample SBT Scala Project
-
-http://www.scala-sbt.org/1.0/docs/sbt-new-and-Templates.html
-
-
-```
-$ sbt new scala/scala-seed.g8
-....
-name [hello]:
-
-Template applied in ./hello
-
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-----------------------------------------------------------------
-----------------------------------------------------------------
-----------------------------------------------------------------
-EXTRA
----------------------------------------------------------------------------
-----------------------------------------------------------------------------------------
-
 Windows-installation 
 ------------------
 
@@ -90,7 +27,7 @@ Linux-installation
 -----------------
 Depending on your OS, you may use a few different commands to install. 
 
-####Debian-based distribution (Ubuntu etc)
+#### Debian-based distribution (Ubuntu etc)
 Use the following, (assuming your package manager is aptitude) 
 ```ubuntu
 echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
@@ -98,7 +35,7 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89
 sudo apt-get update
 sudo apt-get install sbt
 ```
-####RPM-based distributions (Red Hat etc)
+#### RPM-based distributions (Red Hat etc)
 ```linux
 curl https://bintray.com/sbt/rpm/rpm | sudo tee /etc/yum.repos.d/bintray-sbt-rpm.repo
 sudo yum install sbt
@@ -108,6 +45,24 @@ sudo yum install sbt
 
 
 ------------
+
+
+
+
+#Building a Sample SBT Scala Project
+
+http://www.scala-sbt.org/1.0/docs/sbt-new-and-Templates.html
+
+
+```
+$ sbt new scala/scala-seed.g8
+....
+name [hello]:
+
+Template applied in ./hello
+
+```
+
 
 
 &ensp;
