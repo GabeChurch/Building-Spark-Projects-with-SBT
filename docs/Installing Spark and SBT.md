@@ -79,9 +79,6 @@ Template applied in ./hello
 
 
 
-
-
-
- [1]: https://gabechurch.github.io/Building-Spark-Projects-with-SBT/IntrotoSBT/
+[1]: https://gabechurch.github.io/Building-Spark-Projects-with-SBT/IntrotoSBT/
 [2]: https://gabechurch.github.io/Building-Spark-Projects-with-SBT/SimpleSBTSparkBuild/
 
