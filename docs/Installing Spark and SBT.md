@@ -55,7 +55,7 @@ sudo yum install sbt
 
 # Building a Sample SBT Scala Project
 
-http://www.scala-sbt.org/1.0/docs/sbt-new-and-Templates.html
+*For more on default templates see [sbt official tempates](http://www.scala-sbt.org/1.0/docs/sbt-new-and-Templates.html).*
 
 
 ```
