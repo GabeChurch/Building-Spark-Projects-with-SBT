@@ -303,7 +303,7 @@ See https://sparkour.urizone.net/recipes/building-sbt/
 
 
  [1]: http://www.scala-sbt.org/release/docs/Basic-Def.html
-[2]: https://github.com/GabeChurch/Building-Spark-Projects-with-SBT/blob/master/docs/Installing%20Spark%20and%20SBT.md
+[2]: https://gabechurch.github.io/Building-Spark-Projects-with-SBT/InstallingSBT/
 
 
 
