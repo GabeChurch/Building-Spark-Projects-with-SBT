@@ -78,7 +78,7 @@ sbt.version=0.13.16
 
 &emsp; &emsp; &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **scala**](#none)
  
- ![Image of file icon](https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png) <details><summary> **SparkBasics.scala** </summary>
+ ![Image of file icon](https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png) <details> ![Image of file icon](https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png) <summary> **SparkBasics.scala** </summary>
  
  ```
 package SparkExample
