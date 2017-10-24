@@ -53,13 +53,12 @@ You can also install a more complex SVN to use with file explorer
 If you use mobaXterm you can install svn directly in Xterm with
 > apt-get install subversion
 
-<center>[this is centered][1]</center>
 
 ----------------
 
 <center><a href="https://gabechurch.github.io/Building-Spark-Projects-with-SBT/IntrotoSBT/" class="button">Return to Installing SBT</a></center>
 
-## <center><div markdown="1"> [this is centered][1] </div></center>
+## [this is centered][1] {: style="text-align: center"}
 
 
 [1]: https://gabechurch.github.io/Building-Spark-Projects-with-SBT/IntrotoSBT/
