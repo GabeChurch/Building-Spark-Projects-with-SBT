@@ -23,7 +23,7 @@ This build is utilizing the default maven resolvers to get the specified spark v
 
 *If you are building spark on a hadoop cluster you will need a more advanced spark config, and you may need to add specific resolvers and version dependencies. *
 
-### Managed Dependency Build
+### Build
 ![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **Top**
 <details>
 	<summary> &emsp; <img src="https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png" alt="pic" /><b> Build.sbt </b> </summary>
@@ -125,7 +125,7 @@ You will also need to copy the entire contents of the jars from ```path_to/your_
 git clone https://github.com/GabeChurch/Building-Spark-Projects-with-SBT
 ```
 
-### Unmanaged Dependency Build
+### Build
 ![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **Top**
 <details>
 	<summary> &emsp; <img src="https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png" alt="pic" /><b> Build.sbt </b> </summary>
