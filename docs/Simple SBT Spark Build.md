@@ -4,7 +4,7 @@
 ====================
 
 
-The first step to any sbt spark build is to identify a method (or identify the required method) of dependency management. 
+The first step to any sbt spark build is to identify a method (or identify the required method) of project dependency management. 
 
 
 ### Building with Managed Dependencies
