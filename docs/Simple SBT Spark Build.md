@@ -11,7 +11,7 @@ permalink: /SimpleSBTSparkBuild/
 
 The first step to any sbt spark build is to identify a method (or identify the required method) of project dependency management. 
 
-### Building with Managed Dependencies
+## Building with Managed Dependencies
 
 **If you do not have any installed version of spark this will be the method you will use.** We discussed managed dependencies in the [Intro to SBT][3]. As a refresher, you specify these dependencies in your build.sbt file and acquire them from the default maven (or custom) repo(s) by adding library dependencies with the target version of spark. You may need different dependencies according to your build goals. See the managed dependency build.sbt
 
@@ -25,7 +25,7 @@ This build is utilizing the default maven resolvers to get the specified spark v
 
 *If you are building spark on a hadoop cluster you will need a more advanced spark config, and you may need to add specific resolvers and version dependencies. *
 
-### Building with Unmanaged Dependencies
+## Building with Unmanaged Dependencies
 
 **If you already have an installed version of spark can be the method to use if you wish to build against your current version of spark or use spark on your cluster (in yarn-client mode, with hive, etc)** As discussed in the [Intro to SBT][3], this is generally the easiest option for running in cluster mode. It does have some drawbacks in terms of build clarity. It may make more complex projects difficult or impossible to emulate or share with others. 
 
@@ -44,7 +44,7 @@ git clone https://github.com/GabeChurch/Building-Spark-Projects-with-SBT
 ```
 
 
-### Managed Dependency Build
+## Managed Dependency Build
 ![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **Top**
 
 &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **Build.sbt**](#none)
@@ -79,10 +79,8 @@ sbt.version=0.13.16
 &emsp; &emsp; &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **scala**](#none)
  
 <details>
-	<summary>
-		**SparkExample.scala**
-	</summary>
-		<div>
+	<summary> **SparkExample.scala**</summary>
+		<p>
 package SparkExample
 object entirety extends App {
 
@@ -113,7 +111,7 @@ lpDF.orderBy(desc("percent")).show(false)
 
 spark.stop()
 }
-		</div>
+		</p>
 </details>
 
 &emsp; [![closed file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-close-24.png) **lib**](#none)
@@ -121,7 +119,7 @@ spark.stop()
 ----------
 
 
-### Unmanaged Dependency Build
+## Unmanaged Dependency Build
 
 
 &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **Build.sbt**](#none)
