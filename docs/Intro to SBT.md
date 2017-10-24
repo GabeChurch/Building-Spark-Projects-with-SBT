@@ -50,31 +50,30 @@ Sbt is used by a large portion of the scala community and is overwhelmingly popu
 # Build Structure
 -------------------------------------
 
-:open_file_folder: **Top**
+:![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **Top**
 
-&emsp; [:page_with_curl: **Build.sbt**](#page_with_curl-build-)
+&emsp; [![Image of file icon](https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png) **Build.sbt**](#page_with_curl-build-)
 
-&emsp; [:open_file_folder: **project**](#open_file_folder-project)
+&emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **project**](#open_file_folder-project)
 
-&emsp; &emsp; :page_with_curl: **build.properties**
+&emsp; &emsp; ![Image of file icon](https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png) **build.properties**
 
-&emsp; [:open_file_folder: **src**](#open_file_folder-src)
+&emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **src**](#open_file_folder-src)
 
-&emsp; &emsp; [:open_file_folder: **main**](#open_file_folder-main)
+&emsp; &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **main**](#open_file_folder-main)
 
-&emsp; &emsp; &emsp; [:open_file_folder: **resources**](#open_file_folder-resources)
+&emsp; &emsp; &emsp; [![closed file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-close-24.png) **resources**](#open_file_folder-resources)
 
-&emsp; &emsp; &emsp; [:open_file_folder: **scala**](#open_file_folder-scala-or-java)
+&emsp; &emsp; &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **scala**](#open_file_folder-scala-or-java)
 
-&emsp; &emsp; &emsp; &emsp; :page_with_curl: **your_program.scala**
+&emsp; &emsp; &emsp; &emsp; ![Image of file icon](https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png) **your_program.scala**
 
-&emsp; [:open_file_folder: **lib**](#open_file_folder-lib)
-
+&emsp; [![closed file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-close-24.png) **lib**](#open_file_folder-lib)
 
 ----------
 
 
-:page_with_curl: Build <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/0.13/docs/files/typesafe_sbt_svg.svg" width="30" height="14" border="0" ></a>
+![Image of file icon](https://cdn2.iconfinder.com/data/icons/snipicons/500/file-48.png) Build <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/0.13/docs/files/typesafe_sbt_svg.svg" width="30" height="14" border="0" ></a>
 ---------------------------------
 This is the main location for build specifications. Can contain a number of tools to use in the construction of a project however, the main purpose of the build.sbt is to specify and acquire dependencies as needed for a project. The dependencies indicated in the build.sbt are known as **managed dependencies**.
 
@@ -237,13 +236,13 @@ See https://sparkour.urizone.net/recipes/building-sbt/
 
 --------------
 
-:open_file_folder: Project
+![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-48.png) Project
 ---------------------
 * This directory is "a build within your build", which knows how to build your build. Otherwise referred to as the **meta-build**
 
-* This folder is the home for :page_with_curl: **build.properties** which contains the sbt version information. I have found version 0.13.16 to be the most stable for spark builds.
+* This folder is the home for ![Image of file icon](https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png) **build.properties** which contains the sbt version information. I have found version 0.13.16 to be the most stable for spark builds.
 
-*  Commonly contains a file called **Dependencies.scala** which is a source file in the build definition. 
+*  Commonly contains a file called ![Image of file icon](https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png) **Dependencies.scala** which is a source file in the build definition. 
 	* Can be any name ```any_name.scala```
 	* Can also contain multiple .scala files 
 * Can contain its own build.sbt and even another nested project directory!
@@ -256,27 +255,27 @@ See https://sparkour.urizone.net/recipes/building-sbt/
 
 
 
-:open_file_folder: Src
+![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-48.png) Src
 ----------------------
 * This folder contains the **main** and **test** folders
 * It is very similar to the src folder in an Apache Maven Build.
 
 
-### :open_file_folder: Main
+### ![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-32.png) Main
 
 * The main directory typically contains subfolders for your core application.
 
 
-#### :open_file_folder: Resources
+#### ![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) Resources
 * Contains other files which may be crucial to your program and which are included in the java classpath at runtime. 
 * This folder is very useful for those building in apache spark with hive as it is the place to add any .xmls or configs (like a hive-site.xml needed for Spark-SQL hive support)
 
 
-#### :open_file_folder: Scala *(or Java)*
-* This folder is the home for :page_with_curl: **your_program.scala**
+#### ![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) Scala *(or Java)*
+* This folder is the home for ![Image of file icon](https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png) **your_program.scala**
 
 
-### :open_file_folder: Test
+### ![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-32.png) Test
 
 * This folder may contain test dependencies to run with sbt in a test mode.
 
@@ -285,7 +284,7 @@ See https://sparkour.urizone.net/recipes/building-sbt/
 
 
 
-:open_file_folder: Lib
+![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-48.png) Lib
 ----------------------
 
 > This is one of the most useful folders in the project, you can simply place your spark library/dependencies in this folder and your program will compile with them. These are **unmanaged dependencies** because sbt is not "building against them" using ivy or maven resolvers against repositories.
