@@ -244,7 +244,7 @@ spark.stop()
 
 --------
 
-#Using SBT 
+# Using SBT 
 ## Running
 To run the sbt build navigate to the main directory (which contains the build.sbt), and type
 ```
