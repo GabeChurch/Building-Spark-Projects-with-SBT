@@ -42,6 +42,7 @@ libraryDependencies ++= Seq(
     "org.apache.commons" % "commons-csv" % "1.2"
 )
 ```
+
 </div>
 </details>
 
@@ -53,6 +54,7 @@ libraryDependencies ++= Seq(
 ```scala
 sbt.version=0.13.16
 ```
+
 </div>
 </details>
 
@@ -98,6 +100,7 @@ lpDF.orderBy(desc("percent")).show(false)
 spark.stop()
 }
 ```
+
 </div>
 </details>
 
@@ -146,6 +149,7 @@ scalaVersion := "2.11.8"
 ```scala
 sbt.version=0.13.16
 ```
+
 </div>
 </details>
 
@@ -226,6 +230,7 @@ spark.stop()
 }
 
 ```
+
 </div>
 </details>
 
