@@ -1,3 +1,7 @@
+---
+title: Installing SBT
+permalink: /SBTSpark/InstallingSBT/
+---
 
 Installing  <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/assets/sbt-logo.svg" width="60" height="30" border="0" ></a>
 ==================
