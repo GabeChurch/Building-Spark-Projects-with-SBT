@@ -78,7 +78,7 @@ sbt.version=0.13.16
 
 &emsp; &emsp; &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **scala**](#none)
 <details>
-	<summary> &emsp; &emsp; &emsp;&emsp; <img src="https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png" alt="pic" />**SparkExample.scala** </summary>
+	<summary> &emsp; &emsp; &emsp;&emsp; <img src="https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png" alt="pic" /><b> SparkExample.scala </b> </summary>
 	<div markdown="1">
 ```
 package SparkExample
