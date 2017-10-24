@@ -209,8 +209,22 @@ spark.stop()
 	>You need to place your dependencies here. Find your spark home and copy the contents of the jars folder to this location
 
 
+###Running
+To run the sbt build navigate to the main directory (which contains the build.sbt), and type
+```
+user$ sbt
+```
+Then  
+```
+user$ > run
+```
 
+###Closing
+You can exit the build with
 
+```
+user$ > exit
+```
 
 
 
