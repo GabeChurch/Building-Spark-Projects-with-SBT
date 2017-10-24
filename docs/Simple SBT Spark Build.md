@@ -77,7 +77,7 @@ sbt.version=0.13.16
 &emsp; &emsp; &emsp; [![closed file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-close-24.png) **resources**](#none)
 
 &emsp; &emsp; &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **scala**](#none)
- <details><summary>&emsp; &emsp; &emsp; &emsp;![Image of file icon](https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png) **SparkBasics.scala**</summary>
+ <details><summary> &emsp; &emsp; &emsp; &emsp; ![Image of file icon](https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png) **SparkBasics.scala**</summary>
  ```scala
 package SparkExample
 object entirety extends App {
