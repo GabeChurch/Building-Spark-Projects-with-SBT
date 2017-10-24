@@ -244,7 +244,8 @@ spark.stop()
 
 --------
 
-##Running
+#Using SBT 
+## Running
 To run the sbt build navigate to the main directory (which contains the build.sbt), and type
 ```
 user$ sbt
@@ -254,14 +255,14 @@ Then
 user$ > run
 ```
 
-##Closing
+## Closing
 You can exit the build with
 
 ```
 user$ > exit
 ```
 
-
+---
 
 
 
