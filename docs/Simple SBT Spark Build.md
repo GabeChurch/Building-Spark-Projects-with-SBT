@@ -78,7 +78,7 @@ sbt.version=0.13.16
 
 &emsp; &emsp; &emsp; [![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **scala**](#none)
  
- ![Image of file icon](https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png)<details><summary>**SparkExample.scala**</summary>
+<![Image of file icon](https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png)><summary>**SparkExample.scala**</summary>
   ```
 package SparkExample
 object entirety extends App {
@@ -111,7 +111,7 @@ lpDF.orderBy(desc("percent")).show(false)
 spark.stop()
 }
 ```
-</details>
+</![Image of file icon](https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png)>
 
 &emsp; [![closed file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-close-24.png) **lib**](#none)
 
