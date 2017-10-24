@@ -50,7 +50,7 @@ Sbt is used by a large portion of the scala community and is overwhelmingly popu
 # Build Structure
 -------------------------------------
 
-:![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **Top**
+![open file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png) **Top**
 
 &emsp; [![Image of file icon](https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png) **Build.sbt**](#-build-)
 
