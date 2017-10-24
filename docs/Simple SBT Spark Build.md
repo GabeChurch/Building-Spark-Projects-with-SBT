@@ -1,6 +1,6 @@
 
 
- Simple SBT Spark Build  
+ Simple <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/release/docs/files/sbt-logo.svg" width="60" height="30" border="0" ></a> Spark Build  
 ====================
 
 
@@ -92,3 +92,12 @@ This build is utilizing the default maven resolvers to get the specified spark v
 
 
 *If you are building spark on a hadoop cluster you will need a more advanced spark config, and you may need to add specific resolvers and version dependencies. *
+
+&ensp;
+&ensp;
+&ensp;
+
+
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; [previous page][1] *Installing Spark and SBT* &ensp; &ensp; [next page](#none) *None* 
+
+ [1]: https://github.com/GabeChurch/Building-Spark-Projects-with-SBT/blob/master/docs/Installing%20Spark%20and%20SBT.md
