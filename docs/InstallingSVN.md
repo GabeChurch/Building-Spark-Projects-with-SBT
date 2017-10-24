@@ -56,10 +56,6 @@ If you use mobaXterm you can install svn directly in Xterm with
 
 ----------------
 
-&ensp;
-&ensp;
-&ensp;
-
-
 <center><a href="https://gabechurch.github.io/Building-Spark-Projects-with-SBT/IntrotoSBT/" class="button">Return to Installing SBT</a></center>
 
+----
