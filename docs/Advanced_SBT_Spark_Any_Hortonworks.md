@@ -162,10 +162,11 @@ lpDF.orderBy(desc("percent")).show(false)
 &emsp; ![closed file icon](https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-close-24.png) **lib**
 
 
-
-
-
-
+&emsp;
+&emsp;
+&emsp;
+[Return to Simple Build][4]
+{: style="text-align: center"}
 
 
 
@@ -173,5 +174,6 @@ lpDF.orderBy(desc("percent")).show(false)
 [1]: https://gabechurch.github.io/Building-Spark-Projects-with-SBT/IntrotoSBT/#-project
 [2]: https://gabechurch.github.io/Building-Spark-Projects-with-SBT/AdvBuildDeps/
 [3]: https://github.com/spark-notebook/spark-notebook
+[4]: https://gabechurch.github.io/Building-Spark-Projects-with-SBT/
 
 
