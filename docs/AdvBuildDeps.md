@@ -18,8 +18,11 @@ After doing all of the above this script will find the current build and add the
 
 All of this will occur only if an hdpversion is detected in the default hdp path. 
 
+-----------
 Things to add:
+
 - If hdp versions are found of different lengths ask to set a major version before building.
+- change to read from system first, aka allow users to pass differing paths from the environment 
 
 
 -----------------------
@@ -554,3 +557,14 @@ More
 -----------
 
 > This script is the basis for a more advanced Spark Notebook Build which will build against any version of HDP and Spark. It could also be altered to test the default paths for other hadoop clusters to build against, and even include these repos by default. Alternatively it could also be used to build against any user specified path (of any type of Hadoop Cluster) against any user specified repo.
+
+
+
+&emsp;
+&emsp;
+&emsp;
+[Return to Simple Build][1]
+{: style="text-align: center"}
+
+
+[1]: https://gabechurch.github.io/Building-Spark-Projects-with-SBT/
