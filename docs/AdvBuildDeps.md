@@ -563,8 +563,8 @@ More
 &emsp;
 &emsp;
 &emsp;
-[Return to Simple Build][1]
+[Return to Advanced Spark Build ][1]
 {: style="text-align: center"}
 
 
-[1]: https://gabechurch.github.io/Building-Spark-Projects-with-SBT/
+[1]: https://gabechurch.github.io/Building-Spark-Projects-with-SBT/AdvBuildHDPany/
