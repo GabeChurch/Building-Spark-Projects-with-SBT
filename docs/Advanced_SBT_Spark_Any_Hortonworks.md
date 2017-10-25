@@ -1,4 +1,3 @@
-
 ---
 title: Advanced SBT Spark Build 
 permalink: /AdvBuildHDPany/
