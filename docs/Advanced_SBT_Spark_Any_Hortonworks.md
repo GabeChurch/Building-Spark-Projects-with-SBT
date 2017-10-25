@@ -23,6 +23,8 @@ Future
 -------
 I am currently in the process of utilizing various techniques identified in this build to rewrite the [spark-notebook build from source][3] to allow it to be easily implemented at the production level for Hortonworks Hadoop Clusters and others.
 
+----
+
 Exploring the Advanced Build
 -------------------
 
@@ -30,7 +32,7 @@ Exploring the Advanced Build
 <details>
 	<summary> &emsp; <img src="https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png" alt="pic" /><b> Build.sbt </b> </summary>
 	<div markdown="1">
-	>Using the information passed from [Dependencies.scala][2] (the sparkVersion and hadoopVersion) this build will use the hortonworks repo to get the dependencies needed to run spark. 
+Using the information passed from [Dependencies.scala][2] (the sparkVersion and hadoopVersion), this build will use the hortonworks repo to get the dependencies needed to run spark. 
 ```scala
 
 import Dependencies._
@@ -58,7 +60,6 @@ libraryDependencies ++= Seq(
 )	
 
 ```
-
 </div>
 </details>
 
@@ -76,20 +77,19 @@ sbt.version=0.13.16
 <details>
 	<summary> &emsp; &emsp; <img src="https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png" alt="pic" /><b> Dependencies.sbt </b> </summary>
 	<div markdown="1">
-> This is a sub-sbt (nested build) as explained in the [Intro to SBT][1] project. This build.sbt is needed to load a non-native scala library to use in Dependencies.scala. It is using the default maven resolver (default repo) to find the library
+This is a sub-sbt (nested build) as explained in the [Intro to SBT][1] project. This build.sbt is needed to load a non-native scala library to use in Dependencies.scala. It is using the default maven resolver (default repo) to find the library
 ```
 libraryDependencies +=  "commons-io" % "commons-io" % "2.5"
 ```
-
 </div>
 </details>
 
 <details>
 	<summary> &emsp; &emsp; <img src="https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png" alt="pic" /><b> Dependencies.scala </b> </summary>
 	<div markdown="1">
-> This contains the meat of the program. It runs before the build.sbt and allows us to use scala to gather dependencies for our build.
-> 
-> [CLICK HERE][2] to view the program with output (showing variables generated)
+This contains the meat of the program. It runs before the build.sbt and allows us to use scala to gather dependencies for our build.
+
+[CLICK HERE][2] to view the program with output (showing variables generated)
 </div>
 </details>
 
@@ -99,7 +99,7 @@ libraryDependencies +=  "commons-io" % "commons-io" % "2.5"
 <details>
 	<summary>&emsp; &emsp; &emsp; <img src="https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-open-24.png" alt="pic" /><b> resources </b> </summary>
 	<div markdown="1">
->The Dependencies.scala program will place the hive-site.xml here if found.
+The Dependencies.scala program will place the hive-site.xml here if found.
 </div>
 </details>
 
