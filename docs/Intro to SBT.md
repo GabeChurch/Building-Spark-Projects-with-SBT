@@ -245,7 +245,8 @@ See https://sparkour.urizone.net/recipes/building-sbt/
 *  Commonly contains a file called ![Image of file icon](https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png) **Dependencies.scala** which is a source file in the build definition. 
 	* Can be any name ```any_name.scala```
 	* Can also contain multiple .scala files 
-* Can contain its own build.sbt and even another nested project directory!
+	* Can write any scala desired to run before the build.sbt has run.
+* Can contain its own build.sbt and even another nested project directory (for that build.sbt).
 	* For example you would define a sub-sbt (build sbt) for your project folder dependencies (Dependencies.scala) in the event that you need to utilize an import statement to call libraries outside of those shipped with scala and which you wish to utilize within your Dependencies.scala file. Obviously, you cannot access the libraries specified in your main build.sbt, within the file that builds dependencies for it, so it only makes sense to have the ability to load them at a lower level. This is one of many powerful features of sbt.
 
 * The project directory contain other sbt build properties and can contain multiple .scala based build dependencies.
