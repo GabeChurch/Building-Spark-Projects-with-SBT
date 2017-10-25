@@ -4,9 +4,9 @@ permalink: /SimpleSBTSparkBuild/
 ---
 
 
-
  Simple <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="http://www.scala-sbt.org/assets/sbt-logo.svg" width="60" height="30" border="0" ></a> Spark Build  
 ====================
+>You will need SVN if you do not already have installed. See the install guide [here]()
 
 The first step to any sbt spark build is to identify a method (or identify the required method) of project dependency management. 
 
@@ -16,8 +16,7 @@ The first step to any sbt spark build is to identify a method (or identify the r
 
 To download the sbt spark example for managed dependencies use:
 ```
-svn export https://github.com/GabeChurch/Building-Spark-Projects-with-SBT/tree/master/builds/SimpleSBTSpark_ManagedDeps
-
+svn export https://github.com/GabeChurch/Building-Spark-Projects-with-SBT/trunk/builds/SimpleSBTSpark_ManagedDeps/
 ```
 This build is utilizing the default maven resolvers to get the specified spark versions and their dependencies. It is setup to run only in local mode.
 
@@ -115,7 +114,7 @@ spark.stop()
 
 To download the sbt spark example for unmanaged dependencies use:
 ```
-svn export https://github.com/GabeChurch/Building-Spark-Projects-with-SBT/builds/SimpleSBTSpark_UnmanagedDeps
+svn export https://github.com/GabeChurch/Building-Spark-Projects-with-SBT/branch/builds/SimpleSBTSpark_UnmanagedDeps
 ```
 
 You will also need to copy the entire contents of the jars from ```path_to/your_spark_version/jars``` to ```path_to_this_build/build/SimpleSBTSpark_UnmanagedDeps/libs ```
@@ -272,7 +271,8 @@ user$ > exit
 &ensp;
 
 
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; [previous page][1] *Installing SBT* &ensp; &ensp; [next page](#none) *None* 
+[previous page][1] *Installing SBT* &ensp; &ensp; [next page](#none) *None* 
+{: style="text-align: center"}
 
  [1]: https://gabechurch.github.io/Building-Spark-Projects-with-SBT/InstallingSBT/
 
