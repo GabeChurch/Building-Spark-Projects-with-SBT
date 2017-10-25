@@ -271,9 +271,11 @@ user$ > exit
 &ensp;
 
 
-[previous page][1] *Installing SBT* &ensp; &ensp; [next page](#none) *None* 
+[previous page][1] *Installing SBT* &ensp; &ensp; [next page][4] *Advanced SBT Spark Build For Hortonworks* 
 {: style="text-align: center"}
 
  [1]: https://gabechurch.github.io/Building-Spark-Projects-with-SBT/InstallingSBT/
 
 [3]: https://gabechurch.github.io/Building-Spark-Projects-with-SBT/IntrotoSBT/
+
+[4]: https://gabechurch.github.io/Building-Spark-Projects-with-SBT/AdvBuildHDPany/
