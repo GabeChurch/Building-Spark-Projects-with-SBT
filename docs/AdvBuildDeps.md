@@ -8,11 +8,11 @@ Advanced Build Dependencies.scala
 
 About This Build
 ---------------
-The following Program tests the default Hortonworks Hadoop directory for any version, and takes the largest version found. It then uses this version to find the correct directory containing spark, and checks for versions 1 and 2, taking version 2 if found. 
+The following scala program tests the default Hortonworks Hadoop directory for any version, and takes the largest version found. It then uses this version to find the correct directory containing spark, and checks for versions 1 and 2, taking version 2 if found. 
 
-The program then reads all spark jars in the base spark directory found, and parses the hortonworks repo for all matching official spark jars. After finding the matching jars a list of these jars is output along with the spark version and the cooresponding url repolocation. 
+The program next reads all *spark jars* in the base spark directory found, and parses the hortonworks repo for all matching official spark jars. After finding the matching jars a list of these jars is output along with the spark version and the corresponding url repo-location. 
 
-The program then reads all spark hdp hadoop jars and parses the hortonworks repo for all matching official spark hdp hadoop jars. After finding the matching jars a list of these jars is also output, along with the hdp hadoop version and the cooresponding url repolocation.
+The program then reads all *spark hdp hadoop jars* and parses the hortonworks repo for all matching official spark hdp hadoop jars. After finding the matching jars a list of these jars is also output, along with the hdp hadoop version and the corresponding url repo-location.
 
 After doing all of the above this script will find the current build and add the hive-site.xml contained in the selected spark version home folder in your system and add it to the correct sbt build path before initializing the overarching build.sbt 
 
