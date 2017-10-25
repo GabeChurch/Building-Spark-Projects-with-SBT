@@ -8,12 +8,15 @@ Installing  <a href="http://www.scala-sbt.org/release/docs/files/"><img src ="ht
 
 
 -------------
-
+> Note: 
+>In addition to the SBT installation you will need to have SVN (subversion) installed. You can check to see if your have this by running ```> svn help``` 
+>To install see [Installing SVN][3].
 
 Windows-installation 
 ------------------
 
 Simply download the [msi installer](https://github.com/sbt/sbt/releases/download/v1.0.2/sbt-1.0.2.msi) and install.
+> you will use from the command line
 
 *For more help see [sbt official windows installation instructions](http://www.scala-sbt.org/release/docs/Installing-sbt-on-Windows.html). *
 
@@ -73,12 +76,12 @@ Template applied in ./hello
 &ensp;
 &ensp;
 
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;[previous page][1] *Intro to SBT* &ensp; &ensp; [next page][2] *Simple SBT Spark Build*
-
+[previous page][1] *Intro to SBT* &ensp; &ensp; [next page][2] *Simple SBT Spark Build*
+{: style="text-align: center"}
  
 
 
 
 [1]: https://gabechurch.github.io/Building-Spark-Projects-with-SBT/IntrotoSBT/
 [2]: https://gabechurch.github.io/Building-Spark-Projects-with-SBT/SimpleSBTSparkBuild/
-
+[3]: https://gabechurch.github.io/Building-Spark-Projects-with-SBT/InstallingSVN/
