@@ -9,18 +9,18 @@ Installing SVN
 
 ## Linux 
 ### Ubuntu
-```
+```sh
 sudo apt-get install svn
 ```
 
 ### CentOS
-```
+```sh
 yum install svn
 ```
 
 &emsp; - if you receive an unsigned package error one option is to rerun with:
 
-```
+```sh
 yum install --nogpgcheck svn
 ```
 
@@ -30,7 +30,7 @@ yum install --nogpgcheck svn
 You can install homebrew on you mac by following [these instructions](https://brew.sh/).
 
 If you have homebrew installed on your mac simply run:
-```
+```sh
 brew install subversion
 ```
 
@@ -51,8 +51,9 @@ You can also install a more complex SVN to use with file explorer
 
 ### Xterm
 If you use mobaXterm you can install svn directly in Xterm with
-> apt-get install subversion
-
+```sh
+apt-get install subversion
+```
 
 ----------------
 
