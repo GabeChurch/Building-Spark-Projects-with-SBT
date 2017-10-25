@@ -87,9 +87,9 @@ libraryDependencies +=  "commons-io" % "commons-io" % "2.5"
 <details>
 	<summary> &emsp; &emsp; <img src="https://cdn2.iconfinder.com/data/icons/snipicons/500/file-24.png" alt="pic" /><b> Dependencies.scala </b> </summary>
 	<div markdown="1">
-This contains the meat of the program. It runs before the build.sbt and allows us to use scala to gather dependencies for our build.
+This contains the meat of the entire build. It runs before the build.sbt and uses the scala syntax to gather dependencies for the build.sbt.
 
-[CLICK HERE][2] to view the program with output (showing variables generated)
+[CLICK HERE][2] to view the Dependencies.scala program with output (to show variables generated)
 </div>
 </details>
 
